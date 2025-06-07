@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f8bfe;
+  --color-secondary: #200416;
+  --color-background: #e0e0e0;
+  --color-surface: #fafafa;
+  --color-text: "#0A0A0A";
+  --color-textMute: "#313131";
+  --font-lato: 'lato'
+}
+
+@utility container {
+  width: 95%;
+  margin: auto;
+}
+
+@plugin "daisyui"{
+  theme: --default light;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #0f8bfe;
+  --color-secondary: #200416;
+  --color-background: #e0e0e0;
+  --color-surface: #fafafa;
+  --color-text: "#0A0A0A";
+  --color-textMute: "#313131";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'lato', 'arial'
+}
