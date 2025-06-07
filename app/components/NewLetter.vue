@@ -2,8 +2,8 @@
   <div class="bg-surface">
     <div class="card card-xl container overflow-hidden">
       <div class="card-body py-20">
-        <h3 class="card-title justify-center text-2xl font-bold capitalize" data-aos="fade-down">
-          Sbuscribe to our news letter
+        <h3 class="card-title justify-center text-2xl font-bold capitalize text-center" data-aos="fade-down">
+          Subscribe to our news letter
         </h3>
         <p class="text-base text-center mb-6 mt-1" data-aos="fade-up">
           Subscribe to our channel for expert tips and powerful ad strategies
